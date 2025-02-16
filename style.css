@@ -13,6 +13,7 @@
     border-bottom: 1px solid red;
 }
 
+
 .title-wrapper {
     display: flex;
     position: absolute;
@@ -36,4 +37,20 @@
 
 body {
     background-color: lightgray;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .logo-image-rumble {
+        height: 15px;
+    }
+
+    .logo-image {
+        height: 50px;
+        width: 50px;
+    }
+
+    .content {
+        margin-top: 80px;
+    }
 }
